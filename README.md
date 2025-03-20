@@ -1,72 +1,58 @@
-📚 GTK Library Management System
-A simple library management system built with GTK for a user-friendly graphical interface.
+# 📚 GTK Library Management System
 
-📖 Table of Contents
-✨ Features
-🚀 Getting Started
-🛠️ Usage
-🖼️ UI Screenshots
-👨‍💻 Development
-📜 License
-✨ Features
-✅ Add new books with title, author, and publication year 📖
-✅ Remove books from the collection ❌
-✅ Display all books in a scrollable list 📜
-✅ Search for books by title or author 🔍
-✅ User-friendly GTK interface 🎨
+A simple library management system built with GTK for the graphical user interface.
 
-🚀 Getting Started
-📌 Prerequisites
-✅ GTK development libraries
-✅ GCC compiler
-✅ Git
-🔧 Installation
-1️⃣ Clone the repository:
+## 📖 Table of Contents
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [UI Screenshots](#ui-screenshots)
+- [Development](#development)
+- [License](#license)
 
-bash
-Copy
-Edit
-git clone https://github.com/Kksahoo02/GTK-Library-Management-System.git
-2️⃣ Navigate to the project directory:
+## ✨ Features
+- Add new books with title, author, and publication year
+- Remove books from the collection
+- Display all books in a scrollable list
+- Search for books by title or author
+- User-friendly GTK interface
 
-bash
-Copy
-Edit
-cd GTK-Library-Management-System
-3️⃣ Compile the application:
+## 🚀 Getting Started
 
-bash
-Copy
-Edit
-gcc main.c -o library_manager $(pkg-config --cflags --libs gtk+-3.0)
-4️⃣ Run the application:
+### Prerequisites
+- GTK development libraries
+- GCC compiler
+- Git
 
-bash
-Copy
-Edit
-./library_manager
-🛠️ Usage
-📌 Use the menu bar to navigate between different functions
-📌 Add books through the dialog box ➕
-📌 Select books in the list to remove them 🗑️
-📌 Use the search function to find specific books 🔎
-
-🖼️ UI Screenshots
-🖥️ Main Window
+### 🔧 Installation
+1. Clone the repository:
+   git clone https://github.com/Kksahoo02/GTK-Library-Management-System.git
+2. Navigate to the project directory:
+   cd GTK-Library-Management-System
+3. Compile the application:
+   gcc main.c -o library_manager pkg-config --cflags --libs gtk+-3.0
+4. Run the application:
+   ./library_manager
 
 
-📑 Add Book Dialog
+## 🛠️ Usage
+- Use the menu bar to navigate between different functions
+- Add books through the dialog box
+- Select books in the list to remove them
+- Use the search function to find specific books
 
+## 🖼️ UI Screenshots
 
-🔍 Search Results
+![Main Window](screenshots/main_window.jpg)
+![Add Book Dialog](screenshots/add_book_dialog.jpg)
+![Search Results](screenshots/Search.jpg)
 
+## 👨‍💻 Development
+To contribute to this project:
+1. Fork the repository
+2. Create a new branch for your feature
+3. Commit your changes
+4. Create a pull request
 
-👨‍💻 Development
-Want to contribute? Follow these steps:
-1️⃣ Fork the repository 🍴
-2️⃣ Create a new branch for your feature 🌱
-3️⃣ Commit your changes 💾
-4️⃣ Create a pull request 🚀
-
-📜 License
-This project is licensed under the MIT License - see the LICENSE file for details. 📝
+## 📜 License
+This project is licensed under the MIT License - see the LICENSE file for details add emojis to make it engaging
