@@ -43,9 +43,9 @@ A simple library management system built with GTK for the graphical user interfa
 
 ## UI Screenshots
 
-![Main Window](screenshots/main_window.png)
-![Add Book Dialog](screenshots/add_book_dialog.png)
-![Search Results](screenshots/search_results.png)
+![Main Window](screenshots/main_window.jpg)
+![Add Book Dialog](screenshots/add_book_dialog.jpg)
+![Search Results](screenshots/Search.jpg)
 
 ## Development
 To contribute to this project:
